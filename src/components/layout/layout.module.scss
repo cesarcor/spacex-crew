@@ -1,0 +1,46 @@
+.svg_img{
+    position: absolute;
+    margin: 0;
+
+    &_big{
+        left: -10%;
+        top: 10%;
+        width: 25%;
+        height: auto;
+    }
+
+    &_middle{
+        left: 70%;
+        top: 75%;
+    }
+
+    &_right{
+        right: 0%;
+        top: 0;
+    }
+
+    @media (min-width: 768px){
+
+        &_big{
+            left: -5%;
+            top: 10%;
+            width: 20%;
+        }
+    
+        &_middle{
+            left: 70%;
+            top: 75%;
+        }
+    
+        &_right{
+            right: 0px;
+            top: 0px;
+        }
+    }
+
+    @media (min-width: 500px) and (max-width: 1024px){
+        &_big{
+            left: -10%;
+        }
+    }
+}

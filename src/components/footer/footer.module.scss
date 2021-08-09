@@ -1,0 +1,12 @@
+.app_footer{
+    margin: 40px 0;
+    padding: 60px 10px;
+    font-size: 12px;
+    text-align: center;
+
+    &__container{
+        max-width: 512px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

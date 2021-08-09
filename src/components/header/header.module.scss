@@ -1,0 +1,20 @@
+@import '../../global-vars.scss';
+
+.app_header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1024px;
+        margin: auto;
+        padding: 20px 10px 0px 10px;
+
+        .logo{
+            font-size: clamp(40px, 9.5vw, 50px);
+        }
+    }
+}

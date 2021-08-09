@@ -1,0 +1,14 @@
+.crew_list{
+    display: grid;
+    gap: 25px 25px;
+    min-height: 0;
+    min-width: 0; 
+
+    @media (min-width: 530px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

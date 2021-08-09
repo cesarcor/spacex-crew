@@ -1,0 +1,24 @@
+@import "../../global-vars.scss";
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .hero_content {
+    color: $white;
+    max-width: 530px;
+    margin: 0 auto;
+
+    h1.app_name {
+      font-family: "nulshock";
+      font-size: clamp(1rem, 9vw, 50px);
+      margin-bottom: 0;
+      letter-spacing: 2px;
+    }
+
+    .p_container{
+      margin-bottom: 40px;
+    }
+  }
+}

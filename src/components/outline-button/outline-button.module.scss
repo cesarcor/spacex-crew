@@ -1,0 +1,16 @@
+@import '../../global-vars.scss';
+
+.outline_btn{
+    border-radius: 36px;
+    border: 1px solid $orange;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: $orange;
+    transition: 0.3s ease-out all;
+
+    &:hover{
+        background: $orange;
+        color: $blue_1;
+        transition: 0.2s ease-in all;
+    }
+}

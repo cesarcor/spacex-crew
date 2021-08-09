@@ -1,0 +1,38 @@
+@import "./global-vars.scss";
+
+@font-face {
+    font-family: 'nulshock';
+    src: local('nulshock'), url(./assets/fonts/nulshock/nulshock_bd.ttf) format('ttf'),
+    url(./assets/fonts/nulshock/nulshock_bd.woff) format('woff')
+
+}
+
+@font-face {
+    font-family: 'avenir-book';
+    src: local('avenir'), url(./assets/fonts/avenir_ff/AvenirLTStd-Book.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'avenir-black';
+    src: local('avenir-black'), url(./assets/fonts/avenir_ff/AvenirLTStd-Black.otf) format('otf');
+}
+
+body{
+    background-image: linear-gradient(0deg, $blue_1 0%, $blue_2 99%);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: 'avenir-book';
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+
+a{
+    color: $orange;
+    text-decoration: none;
+}
